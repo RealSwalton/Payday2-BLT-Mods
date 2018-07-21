@@ -1,0 +1,22 @@
+{
+	"name" : "Attachment descriptions",
+	"description" : "Allows attachments to have custom descriptions.",
+	"author" : ">:3/Pawcio1337",
+	"contact" : "https://modworkshop.net/member.php?action=profile&uid=965",
+	"color" : "0.01 0.62 0.98",
+	"blt_version" : 2,
+	"undisablable" : false,
+	"disable_safe_mode" : false,
+	"version" : "1.0",
+	"updates" : [
+		{
+			"identifier" : "attachdesc"
+		}
+	],
+	"hooks" : [
+		{
+			"hook_id" : "lib/managers/weaponfactorymanager",
+			"script_path" : "weaponfactorymanager.lua"
+		}
+	]
+}
