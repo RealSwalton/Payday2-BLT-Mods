@@ -1,0 +1,8 @@
+<table name="Custom Attachment Points" color="Color(0.6, 0.9, 0.1)">
+	<AssetUpdates id="22546" version="1.71" provider="modworkshop" use_local_dir="true" use_local_path="true"/>
+
+	<Hooks directory="Hooks">
+		<hook file="weaponfactorymanager.lua" source_file="lib/managers/weaponfactorymanager"/>
+		<hook file="menuraycastweaponbase.lua" type="pre" source_file="lib/units/weapons/menuraycastweaponbase"/>
+	</Hooks>
+</table>

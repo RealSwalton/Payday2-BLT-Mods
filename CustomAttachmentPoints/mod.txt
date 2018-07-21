@@ -1,0 +1,7 @@
+{
+	"name" : "Custom Attachment Points",
+	"description" : "Allows you to edit or create the positions of attachment points on weapons and then use them in the a_obj of attachments.",
+	"author" : "Cpone",
+	"color" : "153 230 26",
+	"blt_version" : 2
+}
