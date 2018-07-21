@@ -1,0 +1,17 @@
+{
+	"name" : "New Custom FOV",
+	"description" : "Custom fov multipler",
+	"author" : "=U$= -Gesicht- \n The3DReaL",
+	"version" : "1.1.0",
+	"blt_version" : 2.0,
+	"hooks" : [
+		{
+			"hook_id" : "lib/managers/menumanager",
+			"script_path" : "lua/init.luac"
+		},
+		{
+			"hook_id" : "lib/managers/menumanager",
+			"script_path" : "lua/CustomFOV.luac"
+		}
+	]
+}
